@@ -1,3 +1,6 @@
+
+const prompt = require('prompt-sync')({sigint: true});
+
 const score = parseInt(prompt('Enter a value between 0 and 100'));
 function studentScore(score) {
     if(score> 79) {
