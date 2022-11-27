@@ -72,3 +72,21 @@ On the second statement, for the generator to print a value of one or above deme
 At the end of the block of code call the function, `carSpeed(speed);`
 
 You're good to go!
+
+Challenge 3: Net Salary Calculator
+
+Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
+
+NB: Use KRA, NHIF, and NSSF values provided in the link below.
+
+https://www.aren.co.ke/payroll/taxrates.htm
+
+https://www.aren.co.ke/payroll/taxrates.htm
+
+In this last question I am making an attempt to develop a function that would calculate the net salary of a given employee. However, my attempt may not answer the finer details of a sophisticated tax system but it's a basic or newbie approach that tries to replicate how ideally Kenyans pay tax.
+
+On the same note, the arrangement of the this project in terms of the required directory or file structure may not be the same as dictated by requirement 2 on having all solutions or a solution written in one file inside one directory. 
+
+My approach seeks to tap more on how to export and import multiple JavaScript files. It's the quest for knowledge and to better understand how JavaScript works!
+
+The final outcome of my attempt is a function that calculates what the a typical Kenyan would take home as payday for the month.
