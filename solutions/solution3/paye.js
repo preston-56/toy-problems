@@ -1,3 +1,4 @@
+// PAYE Tax
 function payeTax(salary) {
   let tax;
   if (salary >= 32333) {

@@ -1,3 +1,4 @@
+// NHIF Deductions
 function nhifDeduction(salary) {
   if (salary > 100000) {
     const nhifMonthly = 1700;
