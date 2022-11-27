@@ -29,7 +29,25 @@ Once you’ve loaded the prompt-sync module and called it, use it to retrieve us
 Declare a function that prompts the user to parse in an integer with a value between 0 and 100.
 - `const score = parseInt(prompt("Enter a value between 0 and 100:"));`
 
-Then declare another function that takes in the student `score` as its parameter `function studentScore(score) {}`.
+Declare another function that takes in the student `score` as its parameter `function studentScore(score) {}`.
+
+To prevent the user from entering a string or a value that is not an integer, use the `if` conditional statement to run 
+
+                `if ( !Number.isInteger(score)) {
+                console.log("Please enter an Integer!");
+                }` 
+
+                 and 
+
+                `if (score > 100) {
+                console.log("Please enter  a value less than or equal to 100!");
+                }`
+                
+                to restrict a value that is greater than 100.
+
+Then continue applying the if, else condition statement and at the end of the block of code, call the initial function that takes student score as its parameter. 
+
+The condition statements should be nested inside the `function studentScore(score){}`function.
 
 Challenge 2: Speed Detector
 
