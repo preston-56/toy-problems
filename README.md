@@ -85,9 +85,9 @@ NB: Use KRA, NHIF, and NSSF values provided in the link below.
 
 - https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 
-In this last question I am making an attempt to develop a function that would calculate the net salary of a given employee. However, my attempt may not answer the finer details of a sophisticated tax system but it's a basic or newbie approach that tries to replicate how ideally Kenyans pay tax. That's to say, the final value obtained may not tally with what's on paper.
+In this last question I am making an attempt to develop a function that would calculate the net salary of a given employee. However, my attempt may not answer the finer details of a sophisticated tax system but it would be  a basic or newbie approach that tries to replicate how ideally Kenyans pay tax. That's to say, the final value obtained may not tally with what's on paper.
 
-On the same note, the arrangement of the this project in terms of the required directory or file structure may not be the same as dictated by requirement 2 on having all solutions or a solution written in one file inside one directory. 
+On the same note, the arrangement of this project in terms of the required directory or file structure may not be the same as dictated by requirement 2 on having all solutions or a solution written in one file inside one directory. 
 
 My approach seeks to tap more on how to export and import multiple JavaScript files. It's the quest for knowledge and to better understand how JavaScript works!
 
