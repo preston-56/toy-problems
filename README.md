@@ -45,7 +45,8 @@ To prevent the user from entering a string or a value that is not an integer, us
                 
                 to restrict a value that is greater than 100.
 
-Then continue applying the if, else condition statement and at the end of the block of code, call the initial function that takes student score as its parameter. 
+Then continue applying the if, else condition statement and at the end of the block of code, call the initial function that takes student score as its parameter.  To execute this, run 
+`studentScore(score);`
 
 The condition statements should be nested inside the `function studentScore(score){}`function.
 
