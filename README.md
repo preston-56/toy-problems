@@ -20,7 +20,7 @@ To create the file, run `touch sol1.js `. Let's make use of our tools now! To st
 
 Therefore, run `npm install prompt-sync` in the vs code terminal. Before you proceed, make sure you have `node` and  `NVM` installed. 
      
-                      `npm install prompt-sync`.
+            npm install prompt-sync
 
 The `prompt-sync` module creates prompting functions that will prompt the user for input once called.
 
