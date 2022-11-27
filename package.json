@@ -1,0 +1,24 @@
+{
+  "name": "ToyProblems",
+  "version": "1.0.0",
+  "description": "`Toy Problems`",
+  "main": "index.js",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preston-56/toy-problems.git"
+  },
+  "keywords": [],
+  "author": "Preston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/preston-56/toy-problems/issues"
+  },
+  "homepage": "https://github.com/preston-56/toy-problems#readme"
+}
