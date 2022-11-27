@@ -1,8 +1,8 @@
 // Speed detector
 
-const prompt = require('prompt-sync')({sigint: true , });
+const prompt = require('prompt-sync')();
 
-const speed  = parseInt(prompt('Enter recorded speed:'));
+const speed  = parseInt(prompt('Recorded speed:'));
 
 function carSpeed(speed) {
     if  (speed <= 70) {

@@ -56,4 +56,19 @@ Write a program that takes the speed of a car as input e.g 80. If the speed is l
 
    > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 
+Our attempt here is to develop a solution to a program that is going to help monitor the speed of automobiles beyond the required driving limit `70km/hr` upto to some point where the driver's license is revoked.
 
+Create a file named `sol2.js` in the same directory where we created our first `sol1.js`. To do this,  run the command `touch sol2.js`.
+
+Just like in our first problem that required user prompt, we're equally going to write `const prompt = require('prompt-sync')();` as our fist line of code then declare a function that prompts, `Recorded speed` using the `const` keyword.
+      
+     ` const speed  = parseInt(prompt('Enter recorded speed:'));
+`
+
+After that, declared a function `function carSpeed(speed) {}`that takes speed as its parameter and nest the if, else condition statements inside it.
+
+On the second statement, for the generator to print a value of one or above demerit point(s) for every 5 km above 70km limit, we subtract our speed  limit from the total speed recorded and divide the result by five to get either one or 12 points or even way far above 12 that withdraws the driver license.
+
+At the end of the block of code call the function, `carSpeed(speed);`
+
+You're good to go!
