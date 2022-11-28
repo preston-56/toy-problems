@@ -15,7 +15,7 @@ function carSpeed(speed) {
         }
 
         if (points >= 12)
-        console.log('License suspended')
+        console.log(' License suspended')
     }
 };
 carSpeed(speed);
