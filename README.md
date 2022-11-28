@@ -168,6 +168,7 @@ Our code should look like this,
 In the code block , next in line after the condition statement, we have four variables `nssf`, `nhif`, `payee` and `net` that should be returned as an object once the function `netSalary()` is printed out by use of the `console.log()` method.
 
 Our code for this final  solution for the net salary calculator in this final file should look like this,
+
                 // Import variables from exported functions
                 const { payeTax } = require("./paye");
                 const { nhifDeduction } = require("./nhif");
