@@ -206,13 +206,9 @@ We  have made an attempt to develop a program that calculates the  employee's ne
 I am looking forward to an enlightenment here.
 
 **undefined payeTax();**
-
-<!-- ![undefined](./images/paye.png width= '60%' height='30%' ) -->
-
 <img src='./images/paye.png' width ='60%' height = '30%'>
 
 **undefined nhifDeduction();**
-
-![undefined](./images/nhif.png =100x20)
+<img src = './images/nhif.png' width = '60' height = '30%'>
 
 Even so, thanks for reading through!
