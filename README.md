@@ -203,7 +203,10 @@ We  have made an attempt to develop a program that calculates the  employee's ne
 
 I am looking forward to an enlightenment here.
 
+undefined payeTax();
 ![undefined](./images/paye.png)
+
+undefined nhifDeduction();
 ![undefined](./images/nhif.png)
 
 Even so, thanks for reading through!
