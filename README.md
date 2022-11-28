@@ -101,4 +101,20 @@ My solution has for different files, one for gross `salary` and the remaining fo
 
 Let's start of with the `payee`. At the end of each code block we're going to export our functions for the first three solutions as we'll later import them to calculate the `net` salary.
 
-Declare a function that takes the parameter `salary` 
+Declare a function that takes the parameter `salary` with a function name `payeTax()` and  inside the curly braces, declare `tax` as our block-scoped local variable, then employ the use of `if,else` condition statements that return `tax` at the end of each statement.  Execute the condition statements for the three salary values that had been provided in the links. Then at the end of the block of code, outside, export the function.
+
+      // Export variables and `functions
+module.exports = {
+  payeTax,
+};`
+
+Let's move to the next file on `nhif`. Here, we are going to declare a function that takes the parameter `salary`. Our function name is `nhifDeduction()`. 
+
+Our block of code takes the `if,else` condition statements that have the `salary` parameter and `nhifMonthly` as variable to hold some certain value. For each salary earned by the employee(s) you are supposed to print out the `nhifMonthly` deduction and return it. This is how our code block should look like,
+
+       if (salary > 100000) {
+    const nhifMonthly = 1700;
+    console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
+    return nhifMonthly;
+  } 
+
