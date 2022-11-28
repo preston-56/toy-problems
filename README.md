@@ -169,11 +169,12 @@ In the code block , next in line after the condition statement, we have four var
 
 Our code for this final  solution for the net salary calculator in this final file should look like this,
 
-                // Import variables from exported functions
+                
+               // Import variables from exported functions
                 const { payeTax } = require("./paye");
                 const { nhifDeduction } = require("./nhif");
                 const { nssfPension } = require("./nssf");
-
+               
                 // Net Salary Calculator
                 const prompt = require("prompt-sync")();
                 const salary = parseInt(prompt("Enter Monthly Gross Salary:"));
@@ -204,10 +205,10 @@ We  have made an attempt to develop a program that calculates the  employee's ne
 
 I am looking forward to an enlightenment here.
 
-undefined payeTax();
-![undefined](./images/paye.png)
+#undefined payeTax();
+![undefined](./images/paye.png =100x20 )
 
-undefined nhifDeduction();
-![undefined](./images/nhif.png)
+#undefined nhifDeduction();
+![undefined](./images/nhif.png =100x20)
 
 Even so, thanks for reading through!
