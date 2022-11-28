@@ -6,7 +6,7 @@ We are going to write code solutions for  three JavaScript programs.
 
 ### Getting Started 
 
-Challenge 1: Student Grade Generator
+**Challenge 1: Student Grade Generator**
 
 Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 
 
@@ -50,7 +50,7 @@ Then continue applying the if, else condition statement and at the end of the bl
 
 The condition statements should be nested inside the `function studentScore(score){}`function.
 
-Challenge 2: Speed Detector
+**Challenge 2: Speed Detector**
 
 Write a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”.  Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
@@ -73,7 +73,7 @@ At the end of the block of code call the function, `carSpeed(speed);`
 
 You're good to go!
 
-Challenge 3: Net Salary Calculator
+**Challenge 3: Net Salary Calculator**
 
 Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
 
