@@ -210,6 +210,7 @@ I am looking forward to an enlightenment here.
 
 <img src='./images/paye.png' width ='60%' height = '30%'>
 
+<br>
 
 **undefined nhifDeduction();**
 
