@@ -117,6 +117,6 @@ Our block of code takes the `if,else` condition statements that have the `salary
     const nhifMonthly = 1700;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
-  } 
+    } 
 
 
