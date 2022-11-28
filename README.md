@@ -6,6 +6,9 @@ We are going to write code solutions for  three JavaScript programs.
 
 ### Getting Started 
 
+###Author
+####Preston
+
 **Challenge 1: Student Grade Generator**
 
 Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 

@@ -6,6 +6,8 @@ const { nssfPension } = require("./nssf");
 // Net Salary Calculator
 const prompt = require("prompt-sync")();
 const salary = parseInt(prompt("Enter Monthly Gross Salary:"));
+
+
 function netSalary() {
     if (!Number.isInteger(salary)) {
         console.log("Please enter an Integer!")

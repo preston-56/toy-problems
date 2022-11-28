@@ -10,7 +10,9 @@ function carSpeed(speed) {
     }
 
     else if (speed > 70) {
-        const points = (speed - 70)/5
+        const points = (speed - 70)/5; {
+            console.log(` Demerit points: ${points}`)
+        }
 
         if (points >= 12)
         console.log('License suspended')

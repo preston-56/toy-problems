@@ -16,8 +16,13 @@ function payeTax(salary) {
     console.log(`Your PAYE is: ${tax}`);
     return tax;
   }
-}
+};
 // Export variables and functions
 module.exports = {
   payeTax,
 };
+
+
+
+
+
