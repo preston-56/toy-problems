@@ -6,8 +6,6 @@ We are going to write code solutions for  three JavaScript programs.
 
 ### Getting Started 
 
-###Author
-####Preston
 
 **Challenge 1: Student Grade Generator**
 
