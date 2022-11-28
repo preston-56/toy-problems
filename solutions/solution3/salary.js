@@ -1,17 +1,15 @@
-
-const prompt = require("prompt-sync")();
-
-// Import variables
+// Import variables from exported functions
 const { payeTax } = require("./paye");
 const { nhifDeduction } = require("./nhif");
 const { nssfPension } = require("./nssf");
 
-const salary = parseInt(prompt("Enter Monthly Gross Salary:"));
 // Net Salary Calculator
+const prompt = require("prompt-sync")();
+const salary = parseInt(prompt("Enter Monthly Gross Salary:"));
 function netSalary() {
     if (!Number.isInteger(salary)) {
         console.log("Please enter an Integer!")
-    };
+    }
   
   const nssf = nssfPension(salary);
   const nhif = nhifDeduction(salary);
@@ -25,5 +23,7 @@ function netSalary() {
     nssf,
   }
 };
+
+netSalary();
 
 console.log(netSalary());

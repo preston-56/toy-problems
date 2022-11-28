@@ -134,3 +134,76 @@ In our third file, `nssf.js` we have a function with a function name `nssfPensio
        nssfPension,
        };`
 
+
+On to our last file that is the solution to our problem. Here we are going to develop a solution that will help us calculate the `net` salary that we are bound to take home after the deductions have been made.
+
+We will import the functions that we had exported at the end  of each code block in the three files, `paye.js`, `nhif.js` and `nssf.js`.   To import them we should have the following lines of code,
+
+                // Import variables from exported functions
+                const { payeTax } = require("./paye");
+                const { nhifDeduction } = require("./nhif");
+                const { nssfPension } = require("./nssf");
+
+Let's  we have prompt *enabled*  so that we can convenient prompt the employee to enter a certain value of their salary and a function to prompt the user to enter their salary.  Therefore, our  line of code should look like this,
+
+                //Net Salary Calculator
+                const prompt = require("prompt-sync")();
+                const salary = parseInt(prompt("Enter Monthly Gross Salary:"));
+
+To restrict the employee from entering a value that could either be a string or anything else that is not `salary`,  we should declare a function whose code block  employs the `if` statement with a condition that must be met -- to enter a `salary` input that is an integer. The function name in my case is`netSalary()`
+
+                function netSalary() {
+                if (!Number.isInteger(salary)) {
+                        console.log("Please enter an Integer!")
+                };
+
+Our code should look like this,
+                // Net Salary Calculator
+                const salary = parseInt(prompt("Enter Monthly Gross Salary:"));
+                function netSalary() {
+                if (!Number.isInteger(salary)) {
+                        console.log("Please enter an Integer!")
+                };
+
+In the code block , next in line after the condition statement, we have four variables `nssf`, `nhif`, `payee` and `net` that should be returned as an object once the function `netSalary()` is printed out by use of the `console.log()` method.
+
+Our code for this final  solution for the net salary calculator in this final file should look like this,
+                // Import variables from exported functions
+                const { payeTax } = require("./paye");
+                const { nhifDeduction } = require("./nhif");
+                const { nssfPension } = require("./nssf");
+
+                // Net Salary Calculator
+                const prompt = require("prompt-sync")();
+                const salary = parseInt(prompt("Enter Monthly Gross Salary:"));
+                function netSalary() {
+                if (!Number.isInteger(salary)) {
+                        console.log("Please enter an Integer!")
+                }
+                
+                const nssf = nssfPension(salary);
+                const nhif = nhifDeduction(salary);
+                const payee = payeTax(salary);
+                const net = salary - nssf - nhif - payee;
+                return {
+                gross: salary,
+                net,
+                payee,
+                nhif,
+                nssf,
+                }
+                };
+
+                netSalary();
+
+                console.log(netSalary());
+
+
+We  have made an attempt to develop a program that calculates the  employee's net salary . However, when I hover over the `payeTax()` and `nhifDeduction()` functions I find them to be undefined and for reasons which I cannot tell. All the four functions work out so well except that there's an undefined once I hover the two functions. 
+
+I am looking forward to an enlightenment here.
+
+![undefined](./images/paye.png)
+![undefined](./images/nhif.png)
+
+Even so, thanks for reading through!
