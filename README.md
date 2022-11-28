@@ -207,9 +207,9 @@ I am looking forward to an enlightenment here.
 
 **undefined payeTax();**
 
-![undefined](./images/paye.png width= '60%' height='30%' )
+<!-- ![undefined](./images/paye.png width= '60%' height='30%' ) -->
 
-<!-- <img src='./images/paye.png' width ='60%' height = '30%'> -->
+<img src='./images/paye.png' width ='60%' height = '30%'>
 
 **undefined nhifDeduction();**
 
