@@ -62,8 +62,8 @@ Create a file named `sol2.js` in the same directory where we created our first `
 
 Just like in our first problem that required user prompt, we're equally going to write `const prompt = require('prompt-sync')();` as our fist line of code then declare a function that prompts, `Recorded speed` using the `const` keyword.
       
-     ` const speed  = parseInt(prompt('Enter recorded speed:'));
-`
+     ` const speed  = parseInt(prompt('Enter recorded speed:'));`
+
 
 After that, declared a function `function carSpeed(speed) {}`that takes speed as its parameter and nest the if, else condition statements inside it.
 
@@ -103,10 +103,11 @@ Let's start of with the `payee`. At the end of each code block we're going to ex
 
 Declare a function that takes the parameter `salary` with a function name `payeTax()` and  inside the curly braces, declare `tax` as our block-scoped local variable, then employ the use of `if,else` condition statements that return `tax` at the end of each statement.  Execute the condition statements for the three salary values that had been provided in the links. Then at the end of the block of code, outside, export the function.
 
-      // Export variables and `functions
-module.exports = {
-  payeTax,
-};`
+                // Export variables and functions
+                
+                `module.exports = {
+                payeTax, 
+                };`
 
 Let's move to the next file on `nhif`. Here, we are going to declare a function that takes the parameter `salary`. Our function name is `nhifDeduction()`. 
 
@@ -117,4 +118,5 @@ Our block of code takes the `if,else` condition statements that have the `salary
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
+
 
