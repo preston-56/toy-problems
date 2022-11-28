@@ -97,14 +97,15 @@ The net salary in this case would be a subtraction of total deductions from the 
 
 So the net salary would be, `net` = `salary` - `payee` - `nhif` -`nssf`.
 
-My solution has for different files, one for gross `salary` and the remaining for each of the deductions, namely, `payee` , `nhif` , and `nssf`. Now, each of these files is hosted inside the sub-directory named, `solution3`. Its parent directory is `solutions`.
+My solution has four different files, one for gross `salary` and the remaining for each of the deductions, namely, `payee` , `nhif` , and `nssf`. Now, each of these files is hosted inside the sub-directory named, `solution3`. Its parent directory is `solutions`. 
+
+The directory, `solution3` has four files namely, `paye.js`, `nhif.js` , `nssf.js` and `salary.js`.
 
 Let's start of with the `payee`. At the end of each code block we're going to export our functions for the first three solutions as we'll later import them to calculate the `net` salary.
 
 Declare a function that takes the parameter `salary` with a function name `payeTax()` and  inside the curly braces, declare `tax` as our block-scoped local variable, then employ the use of `if,else` condition statements that return `tax` at the end of each statement.  Execute the condition statements for the three salary values that had been provided in the links. Then at the end of the block of code, outside, export the function.
 
                 // Export variables and functions
-                
                 `module.exports = {
                 payeTax, 
                 };`
@@ -119,4 +120,17 @@ Our block of code takes the `if,else` condition statements that have the `salary
           return nhifMonthly;
          } 
 
+Perform a repeated execution of the condition `else if ` statement for the remaining `salary` values provided then at the end of the execution, export the function as,
+
+            // Export variables and `functions
+         module.exports = {
+         nhifDeduction,
+         };`
+
+In our third file, `nssf.js` we have a function with a function name `nssfPension()` that takes `salary` as its parameter. Inside the block we have a variable `nssfMonthly` that holds a flat-value of `200`.  There is not much to be performed except to return the `nssfMonthly` value. Thereafter, export the function.
+
+      // Export variables and functions
+      `module.exports =  {
+       nssfPension,
+       };`
 
