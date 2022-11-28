@@ -91,7 +91,7 @@ On the same note, the arrangement of this project in terms of the required direc
 
 My approach seeks to tap more on how to export and import multiple JavaScript files. It's the quest for knowledge and to better understand how JavaScript works!
 
-The final outcome of my attempt is a function that calculates what the a typical Kenyan would take home as payday for the month.
+The final outcome of my attempt is a function that calculates what a typical Kenyan would take home as payday for the month.
 
 The net salary in this case would be a subtraction of total deductions from the gross `salary`. These deductions are `payee`,`nhif` and `nssf`.
 
