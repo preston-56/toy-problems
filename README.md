@@ -215,6 +215,6 @@ I am looking forward to an enlightenment here.
 **undefined nhifDeduction();**
 
 
-<img src = './images/nhif.png' width = '60' height = '30%'>
+<img src = './images/nhif.png' width = '60%' height = '30%'>
 
 Even so, thanks for reading through!
