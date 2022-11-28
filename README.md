@@ -158,12 +158,13 @@ To restrict the employee from entering a value that could either be a string or 
                 };
 
 Our code should look like this,
-                // Net Salary Calculator
-                const salary = parseInt(prompt("Enter Monthly Gross Salary:"));
-                function netSalary() {
-                if (!Number.isInteger(salary)) {
-                        console.log("Please enter an Integer!")
-                };
+
+                        // Net Salary Calculator
+                        const salary = parseInt(prompt("Enter Monthly Gross Salary:"));
+                        function netSalary() {
+                        if (!Number.isInteger(salary)) {
+                                console.log("Please enter an Integer!")
+                        };
 
 In the code block , next in line after the condition statement, we have four variables `nssf`, `nhif`, `payee` and `net` that should be returned as an object once the function `netSalary()` is printed out by use of the `console.log()` method.
 
