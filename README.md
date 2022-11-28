@@ -113,10 +113,10 @@ Let's move to the next file on `nhif`. Here, we are going to declare a function 
 
 Our block of code takes the `if,else` condition statements that have the `salary` parameter and `nhifMonthly` as variable to hold some certain value. For each salary earned by the employee(s) you are supposed to print out the `nhifMonthly` deduction and return it. This is how our code block should look like,
 
-       if (salary > 100000) {
-    const nhifMonthly = 1700;
-    console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
-    return nhifMonthly;
-    } 
+             if (salary > 100000) {
+         const nhifMonthly = 1700;
+         console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
+          return nhifMonthly;
+         } 
 
 
