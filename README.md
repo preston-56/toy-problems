@@ -243,5 +243,7 @@ Even so, thanks for reading through!
 
 - I have added `  return salary;` at the end of the code block before terminating it with a `};` to solve the **undefined** that appears when I hover over the function `nhifDeduction()`.
 
+- Without the `return` statement at the end of the code block that returns `salary`, the value assigned to the parameter `salary` at each function is nothing or cannot be printed out by the `console.log() `method. Therefore, it is undefined.
+
 Happy coding!
 
