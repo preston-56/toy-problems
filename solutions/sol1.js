@@ -8,11 +8,11 @@ function studentScore(score) {
     console.log("Please enter an Integer!");
   }
 
-  if (score > 100) {
+  else if (score > 100) {
     console.log("Please enter  a value less than or equal to 100!");
   }
 
-if (score > 79) {
+ else if (score > 79) {
   console.log("Grade: A");
 } 
 

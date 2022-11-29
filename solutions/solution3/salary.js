@@ -1,7 +1,7 @@
 // Import variables from exported functions
 const { payeTax } = require("./paye");
 const { nhifDeduction } = require("./nhif");
-const { nssfPension } = require("./nssf");
+const { nssfContribution} = require("./nssf");
 
 // Net Salary Calculator
 const prompt = require("prompt-sync")();
@@ -13,7 +13,7 @@ function netSalary() {
         console.log("Please enter an Integer!")
     }
   
-  const nssf = nssfPension(salary);
+  const nssf = nssfContribution(salary);
   const nhif = nhifDeduction(salary);
   const payee = payeTax(salary);
   const net = salary - nssf - nhif - payee;

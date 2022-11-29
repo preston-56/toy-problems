@@ -88,7 +88,7 @@ NB: Use KRA, NHIF, and NSSF values provided in the link below.
 
 In this last question I am making an attempt to develop a function that would calculate the net salary of a given employee. However, my attempt may not answer the finer details of a sophisticated tax system but it would be  a basic or newbie approach that tries to replicate how ideally Kenyans pay tax. That's to say, the final value obtained may not tally with what's on paper.
 
-On the same note, the arrangement of this project in terms of the required directory or file structure may not be the same as dictated by requirement 2 on having all solutions or a solution written in one file inside one directory. 
+On the same note, the arrangement of this project in terms of the required directory or file structure may not be the same as dictated by requirement 1 on having all solutions or a solution written in one file inside one directory. 
 
 My approach seeks to tap more on how to export and import multiple JavaScript files. It's the quest for knowledge and to better understand how JavaScript works!
 
@@ -145,7 +145,7 @@ We will import the functions that we had exported at the end  of each code block
                 const { nhifDeduction } = require("./nhif");
                 const { nssfPension } = require("./nssf");
 
-Let's  we have prompt *enabled*  so that we can convenient prompt the employee to enter a certain value of their salary and a function to prompt the user to enter their salary.  Therefore, our  line of code should look like this,
+Let's  have prompt *enabled*  so that we can convenient prompt the employee to enter a certain value of their salary and have a function to prompt the user to enter their salary.  Therefore, our  line of code should look like this,
 
                 //Net Salary Calculator
                 const prompt = require("prompt-sync")();
