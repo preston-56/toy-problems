@@ -40,7 +40,7 @@ To prevent the user from entering a string or a value that is not an integer, us
 
                  and 
 
-                `if (score > 100) {
+                `else if (score > 100) {
                 console.log("Please enter  a value less than or equal to 100!");
                 }`
                 
@@ -132,7 +132,7 @@ In our third file, `nssf.js` we have a function with a function name `nssfPensio
 
       // Export variables and functions
       `module.exports =  {
-       nssfPension,
+       nssfContribution,
        };`
 
 
@@ -143,7 +143,7 @@ We will import the functions that we had exported at the end  of each code block
                 // Import variables from exported functions
                 const { payeTax } = require("./paye");
                 const { nhifDeduction } = require("./nhif");
-                const { nssfPension } = require("./nssf");
+                const { nssfContribution } = require("./nssf");
 
 Let's  have prompt *enabled*  so that we can convenient prompt the employee to enter a certain value of their salary and have a function to prompt the user to enter their salary.  Therefore, our  line of code should look like this,
 
@@ -175,7 +175,7 @@ Our code for this final  solution for the net salary calculator in this final fi
                // Import variables from exported functions
                 const { payeTax } = require("./paye");
                 const { nhifDeduction } = require("./nhif");
-                const { nssfPension } = require("./nssf");
+                const { nssfContribution } = require("./nssf");
                
                 // Net Salary Calculator
                 const prompt = require("prompt-sync")();
@@ -185,7 +185,7 @@ Our code for this final  solution for the net salary calculator in this final fi
                         console.log("Please enter an Integer!")
                 }
                 
-                const nssf = nssfPension(salary);
+                const nssf = nssfContribution(salary);
                 const nhif = nhifDeduction(salary);
                 const payee = payeTax(salary);
                 const net = salary - nssf - nhif - payee;
