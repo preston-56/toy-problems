@@ -11,12 +11,13 @@ const salary = parseInt(prompt("Enter Monthly Gross Salary:"));
 function netSalary() {
     if (!Number.isInteger(salary)) {
         console.log("Please enter an Integer!")
-    }
+    };
   
   const nssf = nssfContribution(salary);
   const nhif = nhifDeduction(salary);
   const payee = payeTax(salary);
   const net = salary - nssf - nhif - payee;
+ 
   return {
     gross: salary,
     net,
@@ -25,8 +26,6 @@ function netSalary() {
     nssf,
   }
 };
-
-netSalary();
 
 console.log(netSalary());
 

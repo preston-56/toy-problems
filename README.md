@@ -195,6 +195,7 @@ Our code for this final  solution for the net salary calculator in this final fi
                 const nhif = nhifDeduction(salary);
                 const payee = payeTax(salary);
                 const net = salary - nssf - nhif - payee;
+                
                 return {
                 gross: salary,
                 net,
@@ -203,8 +204,6 @@ Our code for this final  solution for the net salary calculator in this final fi
                 nssf,
                 }
                 };
-
-                netSalary();
 
                 console.log(netSalary());
 
