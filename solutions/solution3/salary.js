@@ -29,3 +29,7 @@ function netSalary() {
 netSalary();
 
 console.log(netSalary());
+
+
+
+

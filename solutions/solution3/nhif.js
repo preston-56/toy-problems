@@ -1,106 +1,111 @@
 // NHIF Deductions
 function nhifDeduction(salary) {
+  let  nhifMonthly;
+  nhifMonthly;
+
   if (salary > 100000) {
-    const nhifMonthly = 1700;
+    nhifMonthly = 1700;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   else if (salary >= 90000) {
-    const nhifMonthly = 1600;
+    nhifMonthly = 1600;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   
   else if (salary >= 80000) {
-    const nhifMonthly = 1500;
+    nhifMonthly = 1500;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   
   else if (salary >= 70000) {
-    const nhifMonthly = 1400;
+    nhifMonthly = 1400;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   
   else if (salary >= 60000) {
-    const nhifMonthly = 1300;
+    nhifMonthly = 1300;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   
   else if (salary >= 50000) {
-    const nhifMonthly = 1200;
+    nhifMonthly = 1200;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   
   else if (salary >= 45000) {
-    const nhifMonthly = 1100;
+    nhifMonthly = 1100;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   
   else if (salary >= 40000) {
-    const nhifMonthly = 1000;
+    nhifMonthly = 1000;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   
   else if (salary >= 35000) {
-    const nhifMonthly = 950;
+    nhifMonthly = 950;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   
   else if (salary >= 30000) {
-    const nhifMonthly = 900;
+    nhifMonthly = 900;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   
   else if (salary >= 25000) {
-    const nhifMonthly = 850;
+    nhifMonthly = 850;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   
   else if (salary >= 20000) {
-    const nhifMonthly = 750;
+    nhifMonthly = 750;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   
   else if (salary >= 15000) {
-    const nhifMonthly = 600;
+    nhifMonthly = 600;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   
   else if (salary >= 12000) {
-    const nhifMonthly = 500;
+    nhifMonthly = 500;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   
   else if (salary >= 8000) {
-    const nhifMonthly = 400;
+    nhifMonthly = 400;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   
   else if (salary >= 6000) {
-    const nhifMonthly = 300;
+    nhifMonthly = 300;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   } 
   
   else if (salary < 5999) {
-    const nhifMonthly = 150;
+    nhifMonthly = 150;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   }
+
 };
+
 
 // Export variables and functions
 module.exports = {
