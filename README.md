@@ -115,11 +115,17 @@ Let's move to the next file on `nhif`. Here, we are going to declare a function 
 
 Our block of code takes the `if,else` condition statements that have the `salary` parameter and `nhifMonthly` as variable to hold some certain value. For each salary earned by the employee(s) you are supposed to print out the `nhifMonthly` deduction and return it. This is how our code block should look like,
 
-             if (salary > 100000) {
-         const nhifMonthly = 1700;
-         console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
-          return nhifMonthly;
-         } 
+            
+                function nhifDeduction(salary) {
+                let  nhifMonthly;
+                nhifMonthly;
+                
+                if (salary > 100000) {
+                nhifMonthly = 1700;
+                console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
+                return nhifMonthly;
+                } 
+                .....
 
 Perform a repeated execution of the condition `else if ` statement for the remaining `salary` values provided then at the end of the execution, export the function as,
 
@@ -222,10 +228,20 @@ I am looking forward to an enlightenment here.
 Even so, thanks for reading through!
 
 # Solution for undefined payeTax();
-**code console test**
+**console code test**
 
 <img src = './images/undefined payee.png' width = '60%' height = '30%'>
 
 -  A function returns undefined if a value was not returned.
 -   I have added `  return salary;` at the end of the code block before terminating it with a `};` to solve the **undefined** that appears when I hover over the function `payeTax()`.
+
+# Solution for undefined nhifDeduction();
+
+**console code test**
+
+<img src = './images/undefined nhif.png' width = '60%' height = '30%'>
+
+- I have added `  return salary;` at the end of the code block before terminating it with a `};` to solve the **undefined** that appears when I hover over the function `nhifDeduction()`.
+
+Happy coding!
 

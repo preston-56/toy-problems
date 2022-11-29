@@ -98,14 +98,13 @@ function nhifDeduction(salary) {
     return nhifMonthly;
   } 
   
-  else if (salary < 5999) {
+  else if (salary <= 5999) {
     nhifMonthly = 150;
     console.log(`Your NHIF Deduction is: ${nhifMonthly}`);
     return nhifMonthly;
   }
-
+return salary;
 };
-
 
 // Export variables and functions
 module.exports = {
