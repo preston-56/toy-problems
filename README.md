@@ -219,4 +219,11 @@ I am looking forward to an enlightenment here.
 
 <img src = './images/nhif.png' width = '60%' height = '30%'>
 
+#Solution for undefined payeTax();
+
+<img src = './images/undefined payee.png' width = '60%' height = '30%'>
+
+-  A function returns undefined if a value was not returned.
+-   I have added `  return salary;` at the end of the code block before terminating it with a `};` to solve the **undefined** that appears when I hover over the function `payeTax()`.
+
 Even so, thanks for reading through!
