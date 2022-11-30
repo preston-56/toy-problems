@@ -247,5 +247,4 @@ Even so, thanks for reading through!
 Happy coding!
 
 # Author
-
-**Preston**
+Preston
