@@ -20,7 +20,7 @@ else if (score >= 60) {
   console.log("Grade: B");
 } 
 
-else if (score >= 49) {
+else if (score >49) {
   console.log("Grade: C");
 } 
 
