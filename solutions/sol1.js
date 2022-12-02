@@ -3,7 +3,7 @@ const prompt = require("prompt-sync")();
 const score = parseInt(prompt("Enter a value between 0 and 100:"));
 function studentScore(score) {
 
-    //  Integer salary input
+    //  Integer student input
  if ( !Number.isInteger(score)) {
     console.log("Please enter an Integer!");
   }
